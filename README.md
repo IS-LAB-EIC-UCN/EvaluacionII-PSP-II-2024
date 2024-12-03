@@ -52,7 +52,7 @@ que queremos reutilizar no se puede implementar por separado. En su lugar, un so
 2. Para la clase **Poliza**, crear un nuevo método estático llamado **construirPoliza**, el cual recibirá como parámetro 
 una abstracción llamada **ConstructorPoliza** capaz de construir una **Poliza**. En el cuerpo de este nuevo método (**construirPoliza**), la 
 abstracción pasada como parámetro ejecutará un método llamado **construir()**. 
-El constructor de **Poliza**, recibirá como parámetro varibles que serán atribuidas a sus atributos de clase. Algo importante 
+El constructor de **Poliza**, recibirá como parámetros variables que serán atribuidas a sus atributos de clase. Algo importante 
 a tomar en cuenta es que la clase **Poliza** no debe tener acoplamiento con ninguna API XML. 
 3. Crear la nueva clase que se muestra a continuación. Usted deberá organizar las clases/abstracciones en los dos bundles mencionados para 
 que efectivamente ocurra independencia en el deployment. 
