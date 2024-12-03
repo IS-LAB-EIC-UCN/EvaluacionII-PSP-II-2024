@@ -43,8 +43,7 @@ sea reutilizable en otra aplicación, no solo debemos desacoplar la clase **Poli
 asegurarnos de que la clase **Poliza** pueda implementarse de manera independiente al comportamiento XML.
 
 En esta situación, debido a que la clase **Poliza** depende tanto de la funcionalidad de análisis XML, el comportamiento **Poliza** 
-que queremos reutilizar no se puede implementar por separado. En su lugar, un solo módulo **org.poliza.jar** es nuestra única unidad  
-implementable, como se encuentra actualmente el proyecto.
+que queremos reutilizar no se puede implementar por separado. En su lugar, un solo módulo **org.poliza.jar** es nuestra única unidad implementable, como se encuentra actualmente el proyecto.
 
 
 ### Desarrollo de una Solución
@@ -57,6 +56,7 @@ El constructor de **Poliza**, recibirá como parámetro varibles que serán atri
 a tomar en cuenta es que la clase **Poliza** no debe tener acoplamiento con ninguna API XML. 
 3. Crear la nueva clase que se muestra a continuación. Usted deberá organizar las clases/abstracciones en los dos bundles mencionados para 
 que efectivamente ocurra independencia en el deployment. 
+
 
 
     import java.io.*;
