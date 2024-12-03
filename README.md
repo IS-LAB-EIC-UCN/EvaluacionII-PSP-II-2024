@@ -58,7 +58,7 @@ a tomar en cuenta es que la clase **Poliza** no debe tener acoplamiento con ning
 que efectivamente ocurra independencia en el deployment. 
 
 
-
+```
     import java.io.*;
     import javax.xml.parsers.*;
 
@@ -99,6 +99,7 @@ que efectivamente ocurra independencia en el deployment.
         public void setFechaNacimiento(Date fechaNacimiento) { this.fechaNacimiento = fechaNacimiento; }
         public void setEstadoCivil(String estadoCivil) { this.estadoCivil = estadoCivil; }
     }
+```
 
 4. Las alteraciones mencionadas también afectarán a la clase **ManejadorDefectoPoliza**, por lo que deberá realizar
 pequeños cambios en esta.
